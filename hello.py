@@ -1,11 +1,17 @@
+from math import *
+
 print("Hello Ananya")
-char_name = "Ananya De"
-char_age = 30
+char_name = input("Enter name please: ")
+char_age = input("Please enter age ")
 print (len(char_name))
 print (char_name[3])
 print (char_name.index("a"))
 print (char_name.replace("Ananya", "Ayanendu"))
 print ("The character name is " + char_name.lower() + "..... ")
 print (char_name + "'s age is " + str(char_age) + " years")
+char_year = input("Which year's age do you want to know? ")
+print (int(char_age) + int(char_year) - 2019)
+print ("Some rough work below")
 print(pow(4, 2))
+print(sqrt(36))
 print (1.234524524 + 3.453464343)
